@@ -1,3 +1,5 @@
 export const environment = {
-    url: process.env['NG_APP_BASE_URL'],
-};
+    production: true,
+    url: 'http://localhost:8080/'
+  };
+  
