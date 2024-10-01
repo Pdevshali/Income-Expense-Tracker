@@ -14,8 +14,14 @@ export class UpdateIncomeComponent {
 
   incomeForm!: FormGroup;
   listOfCategory: any[] = [
-    "Education", "Groceries", "Health", "Subcriptions", "Takeways",
-    "Clothing", "Travelling", "Other"
+   "Salary",
+  "Freelance",
+  "Investment",
+  "Rental Income",
+  "Gifts",
+  "Dividends",
+  "Side Business",
+  "Other"
   ];
 
   incomes: any;
