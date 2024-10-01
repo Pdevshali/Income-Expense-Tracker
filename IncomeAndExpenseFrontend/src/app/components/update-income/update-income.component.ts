@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { NzMessageService } from 'ng-zorro-antd/message';
-import { ExpenseService } from '../../services/expense/expense.service';
 import { IncomeService } from '../../services/income/income.service';
 
 @Component({
@@ -14,8 +13,14 @@ export class UpdateIncomeComponent {
 
   incomeForm!: FormGroup;
   listOfCategory: any[] = [
-    "Education", "Groceries", "Health", "Subcriptions", "Takeways",
-    "Clothing", "Travelling", "Other"
+   "Salary",
+  "Freelance",
+  "Investment",
+  "Rental Income",
+  "Gifts",
+  "Dividends",
+  "Side Business",
+  "Other"
   ];
 
   incomes: any;
